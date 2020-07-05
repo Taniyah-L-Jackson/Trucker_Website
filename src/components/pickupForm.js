@@ -58,14 +58,14 @@ function Pickup() {
                 {/* Title A */}
                 <div className="row formTitle formTitleA">
                     <div className="col-sm-12">
-                        <h1>Lorem ipsum dolor sit amet.</h1>
+                        <h1>Need A Hand For Your Next Delivery? </h1>
                     </div>
                 </div>
 
                 {/* Title B */}
                 <div className="row formTitle formTitleB">
                     <div className="col-sm-12">
-                        <h1>Lorem ipsum dolor sit amet.</h1>
+                        <h1>Just Fill Out the Form Below And We Will Contact You As Swiftly As Possible.</h1>
                     </div>
                 </div>
                 
@@ -233,8 +233,6 @@ function Pickup() {
 export default Pickup
 
 //State List Source: https://www.freeformatter.com/usa-state-list-html-select.html 
-
-// Number Format Source: https://stackoverflow.com/questions/30058927/format-a-phone-number-as-a-user-types-using-pure-javascript
 
 //Send info to main company email 
                                

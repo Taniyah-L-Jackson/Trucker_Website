@@ -23,11 +23,11 @@ function Home() {
                     <div className='col-sm-4 slots slotA'>
                         <div className='row'>
                             <div className='col-sm-6'>
-                                <i className="fas fa-truck-moving"></i>
+                                <i className="fas fa-truck-moving"><span className='sr-only'>Fast and Secure Delivery</span></i>
                             </div>
                             <div className='col-sm-6'>
-                                <h2>Lorem, ipsum dolor.</h2>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, veritatis?</p>
+                                <h2>Fast and Secure Delivery</h2>
+                                <p>Our Company Specializes in making sure that your order is both safely stored and on time.</p>
                             </div>
                         </div>
                     </div>
@@ -35,11 +35,11 @@ function Home() {
                     <div className='col-sm-4 slots slotB'>
                         <div className='row'>
                             <div className='col-sm-6'>
-                                <i className="fas fa-headset"><span className='sr-only'>Customer Service</span></i>
+                                <i className="fas fa-headset"><span className='sr-only'>Friendly Customer Support</span></i>
                             </div>
                             <div className='col-sm-6'>
-                                <h2>Lorem, ipsum dolor.</h2>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, veritatis?</p>
+                                <h2>Friendly Customer Support</h2>
+                                <p>Our Support Staff are always available to lend our customers a helping hand.</p>
                             </div>
                         </div>
                     </div>
@@ -47,11 +47,11 @@ function Home() {
                     <div className='col-sm-4 slots slotC'>
                         <div className='row'>
                             <div className='col-sm-6'>
-                                <i className="fas fa-users"></i>
+                                <i className="fas fa-users"><span className='sr-only'>Determined Employees</span></i>
                             </div>
                             <div className='col-sm-6'>
-                                <h2>Lorem, ipsum dolor.</h2>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, veritatis?</p>
+                                <h2>Determined Employees</h2>
+                                <p>Our Employees are dedicated in making sure your cargo is accurate every time.</p>
                             </div>
                         </div>
                     </div>
@@ -74,7 +74,7 @@ function Home() {
                 <div className="row about">
                     <div className="col-sm-8">
                         <h2>about our founder:</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis neque incidunt fugiat harum modi, laboriosam veniam cupiditate nostrum adipisci vero quis a necessitatibus. Quis nostrum id fugit sunt facilis? Aliquam corrupti dolorum delectus voluptas consectetur, deserunt eaque temporibus ducimus deleniti! Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis neque incidunt fugiat harum modi, laboriosam veniam cupiditate nostrum adipisci vero quis a necessitatibus. Quis nostrum id fugit sunt facilis? Aliquam corrupti dolorum delectus voluptas consectetur, deserunt eaque temporibus ducimus deleniti!</p>
+                        <p>Elizabeth Harris, founder of Guardian Angel Transportation based in Coldwater, MS has been a resident of Mississippi for over 15 years. She has over 10 years in customer service and management experience. As the founder of Guardian Angel Transportation, she understands firsthand the challenges that are faced due to the lack of safe reliable transportation. That is why she is committed to providing dependable freight and expediting transportation in Tennessee, Arkansas and Mississippi.</p>
                     </div>
                     <div className="col-sm-4">
                         <img src="/Trucker_Website/media/Founder.jpeg" alt="founder_img" className='img-responsive'/>
@@ -88,31 +88,29 @@ function Home() {
                     <div className="col-sm-6">
                         <h2>Benefits</h2>
                         <ul>
-                            <li>Lorem.</li>
-                            <li>Eligendi.</li>
-                            <li>Maxime!</li>
-                            <li>Quo.</li>
-                            <li>Fugit.</li>
-                            <li>Fugiat!</li>
-                            <li>Assumenda.</li>
-                            <li>Vero.</li>
-                            <li>Laborum!</li>
-                            <li>Accusamus!</li>
+                            <li>Non Forced Dispatching</li>
+                            <li>Optional Loads To Choose From</li>
+                            <li>Guaranteed well over $2 a mile</li>
+                            <li>Freedom to work with multiple dispatchers</li>
+                            <li>Always courteous and professional             communication</li>
+                            <li>Low 15% fee that covers all things logistics</li>
+                            <li>Low to no monthly fee's</li>
+                            <li>Nationwide Shipping</li>
                         </ul>
                     </div>
                     <div className="col-sm-6">
                         <h2>Services</h2>
                         <ul>
-                            <li>Lorem.</li>
-                            <li>Eligendi.</li>
-                            <li>Maxime!</li>
-                            <li>Quo.</li>
-                            <li>Fugit.</li>
-                            <li>Fugiat!</li>
-                            <li>Assumenda.</li>
-                            <li>Vero.</li>
-                            <li>Laborum!</li>
-                            <li>Accusamus!</li>
+                            <li>Load / Cargo Search</li>
+                            <li>Daily Check-In Calls</li>
+                            <li>Load Receipts</li>
+                            <li>Billing / Invoicing</li>
+                            <li>Book Load</li>
+                            <li>Delivery Appointments</li>
+                            <li>Permits &amp; Routes</li>
+                            <li>Secure Load Confirmation</li>
+                            <li>New Customer Setup</li>
+                            <li>Transmit Delivery Documents</li>
                         </ul>
                     </div>
                 </div>
