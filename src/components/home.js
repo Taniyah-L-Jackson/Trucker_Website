@@ -63,10 +63,23 @@ function Home() {
                     <div className="col-sm-12">
                         <h2>What we do: </h2>
                         <h3>Our Main Goal: Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi, eaque.</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate voluptas provident culpa doloribus aut nulla adipisci non quis voluptates. Voluptas iusto ipsum reprehenderit repellendus accusamus consequuntur ullam quibusdam pariatur sed dolorem quas blanditiis enim ipsam odio molestias, ut et ea. Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit voluptates temporibus ullam magni rerum sequi assumenda exercitationem. Tenetur optio nemo, quo impedit quos nostrum ratione eligendi modi, officiis dignissimos omnis.</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate voluptas provident culpa doloribus aut nulla adipisci non quis voluptates. Voluptas iusto ipsum reprehenderit repellendus accusamus consequuntur ullam quibusdam pariatur sed dolorem quas blanditiis enim ipsam odio molestias, ut et ea. Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit voluptates temporibus ullam magni rerum sequi assumenda exercitationem. Tenetur optio nemo, quo impedit quos nostrum ratione eligendi modi, officiis dignissimos omnis. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius fuga error, cumque tempora esse numquam non optio consectetur nobis illum repudiandae, quis sequi quos, est hic soluta! Et, rerum sit.</p>
                     </div>
                 </div>
-            </div>          
+            </div>    
+
+            {/* Founder Info (Main 1)*/}
+            <div className="container">
+                <div className="row about">
+                    <div className="col-sm-8">
+                        <h2>about our founder:</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis neque incidunt fugiat harum modi, laboriosam veniam cupiditate nostrum adipisci vero quis a necessitatibus. Quis nostrum id fugit sunt facilis? Aliquam corrupti dolorum delectus voluptas consectetur, deserunt eaque temporibus ducimus deleniti! Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis neque incidunt fugiat harum modi, laboriosam veniam cupiditate nostrum adipisci vero quis a necessitatibus. Quis nostrum id fugit sunt facilis? Aliquam corrupti dolorum delectus voluptas consectetur, deserunt eaque temporibus ducimus deleniti!</p>
+                    </div>
+                    <div className="col-sm-4">
+                        <img src="/Trucker_Website/media/Founder.jpeg" alt="founder_img" className='img-responsive'/>
+                    </div>
+                </div>
+            </div>      
      
             {/* Benefits and Dispatch Services (Main 3)*/}
             <div className="container main3Clr">

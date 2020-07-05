@@ -11,14 +11,15 @@ function Nav() {
                     <div className='col-sm-4'>
                         
                         <div>
-                            <img className='logo ' src='/Trucker_Website/media/letter.png' alt='logo'></img>
-            
-                            <div className="dropDown-content">
+                            <img className='logo img-responsive' src='/Trucker_Website/media/letter.png' alt='logo'></img>
+
+                            {/* Disabled Until Future Updates */}
+                            {/* <div className="dropDown-content">
 
                                 <Link to='/'>Home</Link>
                                 <Link to='/about'>About</Link>
                                 <Link to='/pickupForm'>Schedule A Delivery</Link>
-                            </div>
+                            </div> */}
                         </div>
 
                     </div>
