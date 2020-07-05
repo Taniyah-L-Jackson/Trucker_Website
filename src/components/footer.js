@@ -5,36 +5,40 @@ function Footer() {
         <>
             <noscript>[Footer]</noscript>
             <div className="container">
-                <div className="row footerColor">
+                <div className="row footer">
                     <div className="col-sm-6">
-                        <h1>lorem</h1>
+                        <h4>Contact Us</h4>
                         <ul>
                             <li>
-                                <img src="media/email-open-50.png" alt=""/><span>Email</span>
+                                <i className="far fa-envelope"><span className='sr-only'>Email</span></i>
+                                Email
                             </li>
                             <li>
-                                <img src="media/icons8-phone-50.png" alt=""/><span>Contact</span>
+                                <i className="fas fa-phone"><span className='sr-only'>Contact</span></i>
+                                Number
                             </li>
                         </ul>
                     </div>
                     <div className="col-sm-6">
-                        <h1>lorem</h1>
+                        <h4>Follow Us</h4>
                         <ul>
                             <li>
-                                <img src="media/icons8-facebook-f50.png" alt="facebook"/><span>Facebook</span>
+                                <i className="fab fa-facebook-f"><span className='sr-only'>Facebook</span></i>
+                                Facebook
                             </li>
                             <li>
-                                <img src="media/icons8-instagram-50.png" alt="instagram"/><span>Instagram</span>
+                                <i className="fab fa-instagram"><span className='sr-only'>Instagram</span></i>
+                                Instagram
                             </li>
                             <li>
-                                <img src="media/icons8-twitter-50.png" alt="twitter"/><span>Twitter</span>
+                                <i className="fab fa-twitter"><span className='sr-only'>Twitter</span></i>
+                                Twitter
                             </li>
                         </ul>
                     </div>
                 </div>
             </div>
         </>
-
     )
 }
 

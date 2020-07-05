@@ -1,4 +1,5 @@
 import React from 'react'
+import Pickup from './pickupForm'
 
 function Home() {
 
@@ -60,7 +61,7 @@ function Home() {
             {/* Summary Of Company (Main 2)*/}
             <div className="container">
                 <div className="row summary">
-                    <div className="col-sm-12">
+                    <div className="col-sm-12 noPadding">
                         <h2>What we do: </h2>
                         <h3>Our Main Goal: Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi, eaque.</h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate voluptas provident culpa doloribus aut nulla adipisci non quis voluptates. Voluptas iusto ipsum reprehenderit repellendus accusamus consequuntur ullam quibusdam pariatur sed dolorem quas blanditiis enim ipsam odio molestias, ut et ea. Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit voluptates temporibus ullam magni rerum sequi assumenda exercitationem. Tenetur optio nemo, quo impedit quos nostrum ratione eligendi modi, officiis dignissimos omnis. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius fuga error, cumque tempora esse numquam non optio consectetur nobis illum repudiandae, quis sequi quos, est hic soluta! Et, rerum sit.</p>
@@ -116,6 +117,9 @@ function Home() {
                     </div>
                 </div>
             </div>
+
+            {/* Form For Pickup (Main 4) */}
+            <Pickup/>
         </>
     )
 }

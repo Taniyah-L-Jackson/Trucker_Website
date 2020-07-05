@@ -14,9 +14,41 @@ function Pickup() {
     })
 
     const handleChange = (e) => {
-        const [ name, value ] = e.target //target the current box being used
-        setCompanyInfo(prevState => {return {...prevState, [name] : value}}) //constantly update value
+        const { name, value } = e.target //target the current form box being used
+        setCompanyInfo(prevState => {
+            return{...prevState, [name] : value}}) 
+            //constantly update value
 
+    }
+
+    const handleSubmit = (e) =>  {
+        
+        e.preventDefault(); //prevents reload upon submit
+
+        // Check All Parts Of Num (From Free Code Camp)
+        //--Checks if its a US number
+        //--Parentheses are allowed
+        //--Dashes are allowed
+        let numChecker = /^(1\s?)?(\(\d{3}\)|\d{3})[\s\-]?\d{3}[\s\-]?\d{4}$/
+
+        // Show Err if format is incorrect
+        let err = document.getElementById('error')
+
+        //Check for blank fields (Very Lengthy)
+        if (companyInfo.F_name === '' || companyInfo.L_Name === '' || companyInfo.Title === '' || companyInfo.CompanyEmail === '' || companyInfo.CompanyName === '' || companyInfo.CompanyNumber === '' || companyInfo.City_Town === '' || companyInfo.State === '') { 
+            alert('No Blank Fields')
+            return
+
+        }else { //check company number
+            //if Company Number Fails check
+            if(!numChecker.test(companyInfo.CompanyNumber)) { 
+                err.style.display = 'block'
+
+            }else { //if the number passed
+                alert('Form Submitted')
+                err.style.display = 'none'
+            }  
+        }   
     }
 
     return (    
@@ -24,22 +56,22 @@ function Pickup() {
             <div className="container">
 
                 {/* Title A */}
-                <div className="row formColor">
+                <div className="row formTitle formTitleA">
                     <div className="col-sm-12">
                         <h1>Lorem ipsum dolor sit amet.</h1>
                     </div>
                 </div>
 
                 {/* Title B */}
-                <div className="row">
+                <div className="row formTitle formTitleB">
                     <div className="col-sm-12">
                         <h1>Lorem ipsum dolor sit amet.</h1>
                     </div>
                 </div>
                 
                 {/* Form */}
-                <form>
-                    <div className="row">
+                <form onSubmit={handleSubmit}>
+                    <div className="row formClr">
 
                         <div className="col-md-6">
 
@@ -70,7 +102,7 @@ function Pickup() {
 
                                         <option value='Mr.'>Mr. </option>
                                         <option value='Ms.'>Ms. </option>
-                                        <option value='Mrs.'>Mrs. </option>
+                                        <option value='Mrs.'>Mrs.</option>
                                     </select>
                                 </div>
                             </div>
@@ -174,22 +206,22 @@ function Pickup() {
 
                             <h4>Company Number</h4>
                             <div className="row">
-                                <div className="col-sm-12">
+                                <div className="col-sm-6">
                                     <input type="text"
-                                    placeholder='Number'
-                                    name='CompanyNumber'
-                                    value={companyInfo.CompanyNumber}
-                                    onChange={handleChange}/>
+                                        placeholder='Company Number'
+                                        name='CompanyNumber'
+                                        value={companyInfo.CompanyNUmber}
+                                        onChange={handleChange}
+                                    />
+                                    <p className='error' id='error'>Number is incorrectly formatted</p>
                                 </div>
                             </div>
                         </div>
 
-                    </div>
-
-                    <div className="row">
                         <div className="col-sm-12">
                             <button>Submit</button>
                         </div>
+
                     </div>
                 </form>
             
@@ -200,13 +232,15 @@ function Pickup() {
 
 export default Pickup
 
-{/* State List Source: https://www.freeformatter.com/usa-state-list-html-select.html */}
+//State List Source: https://www.freeformatter.com/usa-state-list-html-select.html 
+
+// Number Format Source: https://stackoverflow.com/questions/30058927/format-a-phone-number-as-a-user-types-using-pure-javascript
 
 //Send info to main company email 
                                
-{/* <h2>Entered information:</h2> */}
-{/* <p>Contacter Name: {firstName} {lastName}</p> */}
-{/* <p>Name of Contacter's Company: {companyName}</p> */}
-{/* <p>Company's Email: {companyEmail}</p> */}
-{/* <p>Company's Number: {companyNumber}</p> */}
-{/* <p>Company's Address: {companyLocation} {companyState}</p> */}
+// <h2>Entered information:</h2> 
+// <p>Contacter Name: {firstName} {lastName}</p>
+// <p>Name of Contacter's Company: {companyName}</p>
+// <p>Company's Email: {companyEmail}</p>
+// <p>Company's Number: {companyNumber}</p>
+// <p>Company's Address: {companyLocation} {companyState}</p>
