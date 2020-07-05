@@ -9,7 +9,7 @@ body {
     margin: auto 0px;
     width: 100%;
     font-family: 'Times New Roman', Times, serif;
- }
+}
 
 /* Nav */
 
@@ -168,6 +168,7 @@ body {
 }
 
 .companyInfo ul {
+    height: 400px;
     padding: 40px;
     background: white;
 }
@@ -222,7 +223,7 @@ body {
 }
 
 .formClr {
-    padding: 50px 80px;
+    padding: 30px 80px;
     background: whitesmoke;
 }
 
@@ -247,14 +248,16 @@ form .error {
 }
 
 form button {
-    margin-top: 3%;
-    margin-left: 32%;
-    padding: 15px 150px;
+    margin-top: 6%;
+    margin-bottom: 3%;
+    margin-left: 23%;
+    width: 50%;
+    padding: 20px;
     border-radius: 30px;
     border: none;
-    background: rgb(0, 0, 0);
-    color: rgb(255, 255, 255);
-    font-size: 25px;
+    background: black;
+    color: white;
+    font-size: 30px;
 }
 
 /* Footer Page */
@@ -266,6 +269,7 @@ form button {
 }
 
 .footer h4 {
+    padding-bottom: 10px;
     font-size: 30px;
     text-decoration: underline;
 }

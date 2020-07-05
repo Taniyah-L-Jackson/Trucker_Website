@@ -29,7 +29,7 @@ function Pickup() {
         //--Checks if its a US number
         //--Parentheses are allowed
         //--Dashes are allowed
-        let numChecker = /^(1\s?)?(\(\d{3}\)|\d{3})[\s\-]?\d{3}[\s\-]?\d{4}$/
+        const numChecker = (/^(1\s?)?(\(\d{3}\)|\d{3})[\s\-]?\d{3}[\s\-]?\d{4}$/)
 
         // Show Err if format is incorrect
         let err = document.getElementById('error')
@@ -45,8 +45,8 @@ function Pickup() {
                 err.style.display = 'block'
 
             }else { //if the number passed
-                alert('Form Submitted')
                 err.style.display = 'none'
+                alert('Form Submitted')
             }  
         }   
     }
@@ -81,7 +81,7 @@ function Pickup() {
                                 <div className="col-sm-5">
                                     <input type="text"
                                     placeholder='First Name'
-                                    name='F_Name'
+                                    name='F_name'
                                     value={companyInfo.F_name}
                                     onChange={handleChange}/>
                                 </div>
@@ -89,7 +89,7 @@ function Pickup() {
                                 <div className="col-sm-5">
                                     <input type="text"
                                     placeholder='Last Name'
-                                    name='L_Name'
+                                    name='L_name'
                                     value={companyInfo.L_name}
                                     onChange={handleChange}/>
                                 </div>
