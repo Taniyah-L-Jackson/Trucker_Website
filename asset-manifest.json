@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.js": "/Trucker_Website/static/js/main.cb644240.chunk.js",
-    "main.js.map": "/Trucker_Website/static/js/main.cb644240.chunk.js.map",
+    "main.js": "/Trucker_Website/static/js/main.d3aa0df0.chunk.js",
+    "main.js.map": "/Trucker_Website/static/js/main.d3aa0df0.chunk.js.map",
     "runtime-main.js": "/Trucker_Website/static/js/runtime-main.4374b749.js",
     "runtime-main.js.map": "/Trucker_Website/static/js/runtime-main.4374b749.js.map",
-    "static/js/2.402fc117.chunk.js": "/Trucker_Website/static/js/2.402fc117.chunk.js",
-    "static/js/2.402fc117.chunk.js.map": "/Trucker_Website/static/js/2.402fc117.chunk.js.map",
+    "static/js/2.e569f37d.chunk.js": "/Trucker_Website/static/js/2.e569f37d.chunk.js",
+    "static/js/2.e569f37d.chunk.js.map": "/Trucker_Website/static/js/2.e569f37d.chunk.js.map",
     "index.html": "/Trucker_Website/index.html",
-    "precache-manifest.06cba0c67dd80e64c9aacddd06114e50.js": "/Trucker_Website/precache-manifest.06cba0c67dd80e64c9aacddd06114e50.js",
+    "precache-manifest.e37a3d01502ef24184246b73b77c2483.js": "/Trucker_Website/precache-manifest.e37a3d01502ef24184246b73b77c2483.js",
     "service-worker.js": "/Trucker_Website/service-worker.js",
-    "static/js/2.402fc117.chunk.js.LICENSE.txt": "/Trucker_Website/static/js/2.402fc117.chunk.js.LICENSE.txt"
+    "static/js/2.e569f37d.chunk.js.LICENSE.txt": "/Trucker_Website/static/js/2.e569f37d.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.4374b749.js",
-    "static/js/2.402fc117.chunk.js",
-    "static/js/main.cb644240.chunk.js"
+    "static/js/2.e569f37d.chunk.js",
+    "static/js/main.d3aa0df0.chunk.js"
   ]
 }

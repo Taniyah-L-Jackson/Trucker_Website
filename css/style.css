@@ -1,11 +1,288 @@
-.icon {
-    width: 50px;
-    height: 50px;
+/* Body */
+
+body {
+    background: #736801;
+}
+
+/* All containers */
+.container {
+    margin: auto 0px;
+    width: 100%;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 /* Nav */
 
-.navWrapper {
-    background: lightblue;
+.navColor {
+    padding: 10px 0px;
+    background: #1C1C1C;
     color: white;
+}
+
+.logo {
+    margin-top: 3px;
+    padding: 0px;
+    height: 140px;
+    width: 100%;
+}
+
+.navColor h1{
+    padding: 37px 0px;
+    font-size: 47px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.navColor span {
+    text-decoration: underline;
+}
+
+/* --dropdown {Disabled For Now} */ 
+
+/* .dropBtn {
+    padding: 0px;
+    border: none;
+    background: none;
+}
+
+.dropBtn:hover .dropDown-content {
+    display: block;
+}
+
+.dropDown-content {
+    position: absolute;
+    background-color: grey;
+    min-width: 160px;
+    z-index: 1;
+    display: none;
+}
+
+.dropDown-content a {
+    padding: 12px 16px;
+    color: white;
+    text-decoration: none;
+    display: block;
+} */
+
+/* Hero */
+
+.hero {
+    padding: 0px;
+}
+
+.hero img{
+    height: 550px;
+    width: 100%;
+}
+
+/* Home */
+
+/*-- Main 1 */
+
+.slots {
+    height: 350px;
+    color: white;
+}
+
+.slotA {
+    background: #868686;
+}
+
+.slotB {
+    background: #5B5B5B;
+}
+
+.slotC {
+    background: #363632;
+}
+
+.slots h2 {
+    margin-top: 50%;
+    font-size: 27px;
+}
+
+.slots p {
+    font-size: 16px;
+}
+
+.slots .fas {
+    margin-top: 60%;
+    margin-left: 15%;
+    font-size: 120px;
+    color: white;
+}
+
+/*-- Main 2 */
+
+.summary {
+    margin-top: 60px;
+    margin-bottom: 60px;
+    background: whitesmoke;
+}
+
+.summary h2{
+    margin: 0px;
+    padding: 35px 0px;
+    background: black;
+    color: white;
+    font-size: 45px;
+    text-align: center;
+}
+
+.summary h3 {
+    margin: 0px;
+    padding-top: 60px;
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.summary p {
+    padding: 60px 50px 100px 50px;
+    color: black;
+    font-size: 23px;
+}
+
+.noPadding {
+    padding: 0px;
+}
+
+/*-- Main 3 */
+
+.companyInfo {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background: #736801;
+    color: black;
+}
+
+.companyInfo h2 {
+    margin-bottom: 0px;
+    padding: 25px 0px;
+    background: black;
+    color: white;
+    font-size: 35px;
+    text-align: center;
+}
+
+.companyInfo ul {
+    height: 400px;
+    padding: 40px;
+    background: white;
+}
+
+.companyInfo li {
+    padding: 0px 1px 0px 20px;
+    font-size: 20px;
+    list-style-type: '*';
+}
+
+/* About Page */
+
+.about {
+    padding: 30px 0px;
+    background: whitesmoke;
+}
+
+.about img {
+    border: 15px solid black;
+    box-shadow: 10px 15px 25px black;
+}
+
+.about h2 {
+    padding: 20px 0px;
+    background: black;
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.about p {
+    padding: 35px 50px;
+    color: black;
+    font-size: 23px;
+}
+
+/* Form Page */
+
+.formTitle {
+    padding: 13px 0px;
+    color: white;
+    text-align: center;
+}
+
+.formTitleA {
+    background: #201D00;
+}
+
+.formTitleB {
+    background: #342F01;
+}
+
+.formClr {
+    padding: 30px 80px;
+    background: whitesmoke;
+}
+
+form h4 {
+    padding-top: 25px;
+    font-size: 20px;
+} 
+
+form input {
+    padding: 10px 5px;
+    width: 100%;
+}
+
+form select {
+    padding: 12px 5px;
+    width: 100%;
+}
+
+form .error {
+    color: red;
+    display: none;
+}
+
+form button {
+    margin-top: 6%;
+    margin-bottom: 3%;
+    margin-left: 23%;
+    width: 50%;
+    padding: 20px;
+    border-radius: 30px;
+    border: none;
+    background: black;
+    color: white;
+    font-size: 30px;
+}
+
+/* Footer Page */
+
+.footer {
+    padding: 50px;
+    background: #1C1C1C;
+    color: whitesmoke;
+}
+
+.footer h4 {
+    padding-bottom: 10px;
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+.footer ul {
+    padding: 0px;
+    list-style-type: none;
+}
+
+.footer i {
+    width: 20px;
+    padding-right: 35px;
+    padding-bottom: 5px;
+    color: #736801;
+    font-size: 20px;
 }

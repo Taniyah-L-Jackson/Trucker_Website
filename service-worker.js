@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Trucker_Website/precache-manifest.06cba0c67dd80e64c9aacddd06114e50.js"
+  "/Trucker_Website/precache-manifest.e37a3d01502ef24184246b73b77c2483.js"
 );
 
 self.addEventListener('message', (event) => {
