@@ -8,5 +8,5 @@ A website that has a trucker theme
 * Included React Routing for page expansion
 
 
-`Originally an HTML/CSS Project`
-`Expanded with React so that the project could expand with routing and forms`
+*`Originally an HTML/CSS Project`
+*`Expanded with React so that the project could expand with routing and forms`
