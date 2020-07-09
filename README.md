@@ -10,4 +10,4 @@ A website that has a trucker theme
 
 `Originally an HTML/CSS Project`
 <br/>
-`Expanded with React so that the project could expand with routing and forms`
+`Included React so that the project could expand with routing and forms`
